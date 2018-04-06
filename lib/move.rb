@@ -10,3 +10,7 @@ end
 def input_to_index n
   return n.to_i - 1
 end
+
+def move array, index, value
+  array[index] = value
+end
